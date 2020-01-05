@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A64777D23BBDAEB007D00E4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64777C23BBDAEB007D00E4 /* CalendarViewController.swift */; };
 		9ABE004523B6082400AB5AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE004423B6082400AB5AE5 /* AppDelegate.swift */; };
-		9ABE004723B6082400AB5AE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE004623B6082400AB5AE5 /* ViewController.swift */; };
 		9ABE004A23B6082400AB5AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE004823B6082400AB5AE5 /* Main.storyboard */; };
 		9ABE004D23B6082400AB5AE5 /* acquireLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE004B23B6082400AB5AE5 /* acquireLocation.xcdatamodeld */; };
 		9ABE004F23B6082600AB5AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE004E23B6082600AB5AE5 /* Assets.xcassets */; };
 		9ABE005223B6082600AB5AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE005023B6082600AB5AE5 /* LaunchScreen.storyboard */; };
 		9ABE005D23B6082600AB5AE5 /* acquireLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE005C23B6082600AB5AE5 /* acquireLocationTests.swift */; };
 		9ABE006823B6082600AB5AE5 /* acquireLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE006723B6082600AB5AE5 /* acquireLocationUITests.swift */; };
+		9ABE007723B60FA000AB5AE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABE007623B60FA000AB5AE5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A64777C23BBDAEB007D00E4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		9ABE004123B6082400AB5AE5 /* acquireLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acquireLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABE004423B6082400AB5AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ABE004623B6082400AB5AE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9ABE004923B6082400AB5AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ABE004C23B6082400AB5AE5 /* acquireLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = acquireLocation.xcdatamodel; sourceTree = "<group>"; };
 		9ABE004E23B6082600AB5AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		9ABE006323B6082600AB5AE5 /* acquireLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acquireLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABE006723B6082600AB5AE5 /* acquireLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acquireLocationUITests.swift; sourceTree = "<group>"; };
 		9ABE006923B6082600AB5AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABE007623B60FA000AB5AE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9ABE007823B6380E00AB5AE5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		9ABE007923B6380E00AB5AE5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABE007723B60FA000AB5AE5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				9ABE005B23B6082600AB5AE5 /* acquireLocationTests */,
 				9ABE006623B6082600AB5AE5 /* acquireLocationUITests */,
 				9ABE004223B6082400AB5AE5 /* Products */,
+				9ABE007523B60FA000AB5AE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9ABE004423B6082400AB5AE5 /* AppDelegate.swift */,
-				9ABE004623B6082400AB5AE5 /* ViewController.swift */,
+				9A64777C23BBDAEB007D00E4 /* CalendarViewController.swift */,
 				9ABE004823B6082400AB5AE5 /* Main.storyboard */,
 				9ABE004E23B6082600AB5AE5 /* Assets.xcassets */,
 				9ABE005023B6082600AB5AE5 /* LaunchScreen.storyboard */,
@@ -126,6 +132,14 @@
 				9ABE006923B6082600AB5AE5 /* Info.plist */,
 			);
 			path = acquireLocationUITests;
+			sourceTree = "<group>";
+		};
+		9ABE007523B60FA000AB5AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ABE007623B60FA000AB5AE5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +210,11 @@
 				TargetAttributes = {
 					9ABE004023B6082400AB5AE5 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					9ABE005723B6082600AB5AE5 = {
 						CreatedOnToolsVersion = 10.3;
@@ -209,11 +228,12 @@
 			};
 			buildConfigurationList = 9ABE003C23B6082400AB5AE5 /* Build configuration list for PBXProject "acquireLocation" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = Japanese;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				Japanese,
 				Base,
+				ja,
 			);
 			mainGroup = 9ABE003823B6082400AB5AE5;
 			productRefGroup = 9ABE004223B6082400AB5AE5 /* Products */;
@@ -259,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABE004723B6082400AB5AE5 /* ViewController.swift in Sources */,
+				9A64777D23BBDAEB007D00E4 /* CalendarViewController.swift in Sources */,
 				9ABE004D23B6082400AB5AE5 /* acquireLocation.xcdatamodeld in Sources */,
 				9ABE004523B6082400AB5AE5 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +321,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9ABE004923B6082400AB5AE5 /* Base */,
+				9ABE007823B6380E00AB5AE5 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +330,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9ABE005123B6082600AB5AE5 /* Base */,
+				9ABE007923B6380E00AB5AE5 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
